@@ -1,0 +1,6 @@
+discord.py[voice] ~= 0.16.0
+praw==2.1.18
+discord
+asyncio
+youtube_dl
+pip
