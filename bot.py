@@ -6,7 +6,6 @@ import random
 import requests
 import os
 
-type = 1
 client = discord.Client()
 
 players = {}
