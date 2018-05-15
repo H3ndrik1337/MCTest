@@ -3,5 +3,4 @@ discord
 asyncio
 youtube_dl
 pip
-ffmpeg
 python 
