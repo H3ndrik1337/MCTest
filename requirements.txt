@@ -4,4 +4,4 @@ asyncio
 youtube_dl
 pip
 ffmpeg
-python 3.5
+python 
