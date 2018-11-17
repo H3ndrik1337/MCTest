@@ -3,8 +3,17 @@ import asyncio
 import youtube_dl
 from discord.ext import commands
 import os
+import youtube_dl
 
+type = 1
 client = discord.Client()
+
+players = {}
+
+hendrikid = "227403635166806016"
+
+minutes = 0
+hour = 0
 
 bot = commands.Bot(command_prefix='a.')
 bot.remove_command('help')
