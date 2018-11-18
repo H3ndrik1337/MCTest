@@ -15,6 +15,16 @@ hendrikid = "227403635166806016"
 minutes = 0
 hour = 0
 
+
+@client.event
+async def on_ready():
+    print("Eingeloggt als BoredBot V0.1")
+    print(client.user.name)
+    print(client.user.id)
+    print("------------")
+    await client.change_presence(game=discord.Game(name="access with !help"))
+
+
 bot = commands.Bot(command_prefix='!')
 bot.remove_command('help')
 from discord import opus
